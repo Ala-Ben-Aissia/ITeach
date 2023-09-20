@@ -1,0 +1,34 @@
+name: learning_platform
+description: .
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  cupertino_icons: ^1.0.6
+  flutter_screenutil: ^5.9.0
+  dots_indicator: ^3.0.0
+  cloud_firestore: ^4.9.1
+  intl: ^0.18.1
+  firebase_auth: ^4.9.0
+  firebase_core: ^2.15.1
+  fluttertoast: ^8.2.2
+  shared_preferences: ^2.2.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.3
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
